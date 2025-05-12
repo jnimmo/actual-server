@@ -1,8 +1,8 @@
 name: Trigger rebuild from external branch
 on:
-  schedule:
+  #schedule:
     # At every 36th minute.
-    - cron: '*/36 * * * *'
+  #  - cron: '*/36 * * * *'
   # allow manual trigger
   workflow_dispatch:
 defaults:
